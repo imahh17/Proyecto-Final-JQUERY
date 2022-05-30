@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+h1{
+    font-family: "Monoton";
+    font-weight: normal;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(36, 35, 35);
+}
+
+#back{
+    width: 10rem;
+    margin: 1rem 0 0 1rem;
+    float: left;
+}
+
+
+#back:hover{
+    animation: popup 0.7s;
+  }
+  
+  @keyframes popup {
+    0%{
+      transform: scale(1);
+    }
+    50%{
+      transform: scale(1.2);
+    }
+    60%{
+      transform: scale(1.1);
+    }
+    70%{
+      transform: scale(1.2);
+    }
+    80%{
+      transform: scale(1);
+    }
+    90%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+
+body{
+    background-color: rgb(15, 148, 141);
+}
+
+table{
+    background-color: rgb(36, 35, 35);
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+td{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid black;
+    font-size: 8rem;
+}
+
+.wrap{
+    font-size: 3rem;
+    font-weight: bold;
+    width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrap button{
+    font-size: 1.5rem;
+}

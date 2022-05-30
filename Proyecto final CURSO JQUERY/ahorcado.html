@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="assets/css/hang.css" />
+</head>
+<body>
+    <div id="wrap">
+        <img id="back" src="assets/img/flechaatras.png" alt="atras">
+
+        <div id="game">
+            <div id="hang" class="uno">
+                <div id="muñeco">
+                    <img id="imagen" src="assets/img/ahorcado/ahorcado1.png" alt="">
+                </div>
+
+                <div id="frase">
+
+                </div>
+            </div>
+
+            <div id="respuesta" class="dos">
+                <h2>Tematica: Peliculas</h2>
+                <h2 id="resultado"></h2>
+            </div>
+
+            <div id="mandos" class="tres"> 
+                <div id="letras">
+                    
+                </div>
+                <button id="start">Empezar juego</button>
+                <button id="restart" disabled>Reiniciar juego</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/hang.js"></script>
+</body>
+</html>

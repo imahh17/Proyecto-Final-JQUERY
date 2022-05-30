@@ -1,0 +1,155 @@
+@font-face {
+    font-family:'Super Hero Docall'; /*a name to be used later*/
+	src: url('../fonts/hero.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+body{
+	background-image: url('../img/fondo.png');
+	background-size: cover;
+}
+
+#contenedor{
+	width: 55%;
+	height: 38em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* background-color: rgba(0, 0, 0, 0.7); */
+	padding: 2em;
+	
+	/*border: 2px solid red;*/
+}
+
+p{
+	font-family:'Super Hero Docall';
+	color: white;
+	font-size: 6em;
+	text-align: center;
+	margin-top:0.2em;
+	margin-bottom: 0;
+}
+
+#fallos{
+	font-size: 3em;
+	margin-top:0;
+	padding-top:0.4em;
+	height: 2em;
+}
+
+#control{
+	border: 4px solid orange;
+	width: 30%;
+	height: 37em;
+	float: left;
+	margin-left: 2em;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: 2em;
+}
+
+td{
+	font-family:'Super Hero Docall';
+	color: white;
+	font-size: 4em;
+}
+
+#reloj{
+	margin: 0 auto;
+	margin-top: 6em;
+}
+
+img{
+	width: 8em;
+	height: 8em;
+	justify-content: center;
+	align-items: center;
+}
+
+.carta{
+	width: 8em;
+	height: 8em;
+}
+
+.back, .front{
+	border: 3px solid black;
+}
+
+a{
+  background: #f2c772;
+  background-image: -webkit-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: -moz-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: -ms-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: -o-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: linear-gradient(to bottom, #f2c772, #b86a2b);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 30%;
+}
+
+a:hover {
+  background: #f5aa27;
+  background-image: -webkit-linear-gradient(top, #f5aa27, #612c04);
+  background-image: -moz-linear-gradient(top, #f5aa27, #612c04);
+  background-image: -ms-linear-gradient(top, #f5aa27, #612c04);
+  background-image: -o-linear-gradient(top, #f5aa27, #612c04);
+  background-image: linear-gradient(to bottom, #f5aa27, #612c04);
+  text-decoration: none;
+}
+
+@media (min-width: 450px) {
+	#contenedor{
+		width: 90%;
+		height: 80em;
+	}
+	
+	img{
+		width: 12em;
+		height: 12em;
+	}
+
+	.carta{
+		width: 12em;
+		height: 12em;
+	}
+	
+	#control{
+		float: none;
+		width: 60%;
+		margin: 0 auto;
+		height: 25em;
+	}
+	
+	p{
+		font-size: 6em;
+	}
+	
+	#fallos{
+		font-size: 3em;
+	}
+	
+	a{
+		font-size: 3em;
+		margin-left: 3.5em;
+	}
+	
+	td{
+		font-size: 3em;
+	}
+	#reloj{
+		margin-top: 1em;
+	}
+}
+
+@media (min-width: 1400px) {
+	#contenedor{
+		width: 40%;
+		padding: 8em;
+	}
+	#control{
+		margin-top: 8em;
+		margin-left: 8em;
+	}
+}
+

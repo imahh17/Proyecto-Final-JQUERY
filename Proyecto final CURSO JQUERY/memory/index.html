@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang=”es”>
+
+	<head>
+	
+		<meta charset=”utf-8">
+		<title>Juego Memoria</title>
+		
+		<!--
+		
+		(\_(\ 
+		(=':') <(MEOW)
+		(,(")(")
+		
+		-->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+		<link href="css/estilos.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="control">
+			<p id='titulo'>MEMORY</p>
+			<p id='fallos'></p>
+			<a href="#" class="btn" id="empezar">Empezar</a>
+			<table id="reloj">
+				<tr>
+					<td id="dh"></td>
+					<td id="uh"></td>
+					<td id="sep1"></td>
+					<td id="dm"></td>
+					<td id="um"></td>
+					<td id="sep2"></td>
+					<td id="ds"></td>
+					<td id="us"></td>
+				</tr>
+			</table>
+			
+		</div>
+		
+		<div id="contenedor"></div>
+		
+		<script type="text/javascript" src="scripts/funciones.js"></script>
+	</body>
+</html>

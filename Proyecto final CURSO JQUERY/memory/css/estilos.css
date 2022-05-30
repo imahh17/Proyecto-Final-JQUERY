@@ -1,0 +1,119 @@
+body{
+	background-image: url('../img/fondo.png');
+	background-size: cover
+}
+
+
+#contenedor{
+	width: 45rem;
+	height: 38em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	/* background-color: rgba(0, 0, 0, 0.7); */
+	padding: 2em;
+	
+	/*border: 2px solid red;*/
+}
+
+p{
+	font-family:'Super Hero Docall';
+	color: white;
+	font-size: 5rem;
+	text-align: center;
+	margin-top:0.2rem;
+	margin-bottom: 0;
+}
+
+#fallos{
+	font-size: 3em;
+	margin-top:0;
+	padding-top:0.4em;
+	height: 2em;
+}
+
+#control{
+	border: 4px solid orange;
+	width: 24rem;
+	height: 37em;
+	float: left;
+	margin-left: 2em;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: 2em;
+	z-index: 9;
+}
+
+td{
+	font-family:'Super Hero Docall';
+	color: white;
+	font-size: 4em;
+}
+
+#reloj{
+	margin: 0 auto;
+	margin-top: 6em;
+}
+
+img{
+	width: 9vw;
+	height: 9vw;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFDEDE;
+	border: 3px solid black;
+}
+
+.carta{
+	width: 8vw;
+	height: 8vw;
+	padding: 0.5rem;
+}
+
+.dorso{
+	width: 7vw;
+	height: 7vw;
+	border: 3px solid black;
+}
+
+a{
+  background: #f2c772;
+  background-image: -webkit-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: -moz-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: -ms-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: -o-linear-gradient(top, #f2c772, #b86a2b);
+  background-image: linear-gradient(to bottom, #f2c772, #b86a2b);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 30%;
+}
+
+a:hover {
+  background: #f5aa27;
+  background-image: -webkit-linear-gradient(top, #f5aa27, #612c04);
+  background-image: -moz-linear-gradient(top, #f5aa27, #612c04);
+  background-image: -ms-linear-gradient(top, #f5aa27, #612c04);
+  background-image: -o-linear-gradient(top, #f5aa27, #612c04);
+  background-image: linear-gradient(to bottom, #f5aa27, #612c04);
+  text-decoration: none;
+}
+
+.posicion{
+	position: relative;
+}
+
+#fin{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+	
+	background-image: url('../img/fin.gif');
+	background-repeat: repeat;
+}
