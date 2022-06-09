@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+
+@font-face {
+    font-family: 'Arcade Interlaced';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ARCADE_I.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Arcade Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arcade Normal'), url('../fonts/ARCADE_N.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Cowboys';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Cowboys'), url('../fonts/cowboys.woff') format('woff');
+}
+
+body{
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Arcade Interlaced';
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;   
+}
+
+h3{
+    font-family: 'Arcade Normal';
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;  
+}
+
+#juegos{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#juego1{
+    width: 15rem;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#juego1 img{
+    width: 12rem;
+}
+
+#juego1 h2{
+    font-family: 'Cowboys';
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: rgb(163, 29, 29);
+}
+
+#juego2{
+    width: 15rem;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#juego2 img{
+    height: 9rem;
+}
+
+#juego2 h2{
+    font-family: 'Monoton';
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: rgb(163, 29, 29);
+}
+
+#juego3{
+    width: 15rem;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#juego3 img{
+    height: 10rem;
+}
+
+#juego3 h2{
+    margin-top: 1rem;
+    font-family: 'Blaka';
+    font-size: 3rem;
+    font-weight: normal;
+    color: rgb(163, 29, 29);
+    margin-bottom: 1rem;
+}
+
+#juego1:hover, #juego2:hover, #juego3:hover {
+    box-shadow: 0 0 30px rgb(241, 94, 247); 
+}
+
+@media (min-width: 768px){
+    h1{
+        font-size: 4rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+}
+
+@media(min-width: 815px){
+    #juego1{
+        margin-bottom: 0;
+    }
+
+    #juego2{
+        margin-bottom: 0;
+    }
+
+    #juego3{
+        margin-bottom: 0;
+    }
+
+    #juego1 h2{
+        font-size: 1.8rem;
+    }
+
+    #juego2 h2{
+        font-size: 1.7rem;
+    }
+    
+    #juego1 img{
+        width: 12rem;
+        margin-top: 1rem;
+    }
+
+    #juego2 img{
+        width: 9rem;
+        margin-top: 1rem;
+    }
+
+    #juego3 img{
+        width: 12rem;
+    }
+
+    #wrap{
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media(min-width: 1400px){
+    body{
+        background-size: cover;
+    }
+
+    #wrap{
+        margin-bottom: 2rem;
+    }
+}

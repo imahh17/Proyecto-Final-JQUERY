@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Arcade Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arcade Normal'), url('../../assets/fonts/ARCADE_N.woff') format('woff');
+}
+
+body{
+	background-image: url('../img/fondo.png');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contenedor{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+
+img{
+	background-color: #FFDEDE;
+	border: 3px solid black;
+}
+
+.carta{
+	margin: 1rem;
+}
+
+.dorso{
+	border: 3px solid black;
+}
+
+#control{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 2rem;
+	border: 4px solid orange;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 9;
+	text-align: center;
+}
+
+#titulo{
+	margin-top:2rem;
+}
+
+p{
+	font-family: 'Arcade Normal';
+	color: white;
+	font-size: 5rem;
+	text-align: center;
+	margin-top:0.2rem;
+	margin-bottom: 0;
+}
+
+#fallos{
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+td{
+	font-family:'Arcade Normal';
+	color: white;
+	font-size: 2rem;
+}
+
+#reloj{
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a{
+	margin: 0 auto;
+	background: #f2c772;
+	background-image: -webkit-linear-gradient(top, #f2c772, #b86a2b);
+	background-image: -moz-linear-gradient(top, #f2c772, #b86a2b);
+	background-image: -ms-linear-gradient(top, #f2c772, #b86a2b);
+	background-image: -o-linear-gradient(top, #f2c772, #b86a2b);
+	background-image: linear-gradient(to bottom, #f2c772, #b86a2b);
+	font-family: 'Arcade Normal';
+	color: #ffffff;
+	font-size: 2rem;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #f5aa27;
+	background-image: -webkit-linear-gradient(top, #f5aa27, #612c04);
+	background-image: -moz-linear-gradient(top, #f5aa27, #612c04);
+	background-image: -ms-linear-gradient(top, #f5aa27, #612c04);
+	background-image: -o-linear-gradient(top, #f5aa27, #612c04);
+	background-image: linear-gradient(to bottom, #f5aa27, #612c04);
+	text-decoration: none;
+}
+
+.posicion{
+	position: relative;
+}
+
+#fin{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+	
+	background-image: url('../img/fin.gif');
+	background-repeat: repeat;
+}
+
+@media (min-width:768px){
+	body{
+		display: grid;
+	}
+
+	#contenedor{
+		grid-column: 2 / 2;
+  		grid-row: 1;
+		width: 100%;
+	}
+
+	#control{
+		width: 25rem;
+		grid-column: 1 / 2;
+  		grid-row: 1;
+	}
+
+	#titulo {
+		font-size: 3rem;
+	}
+
+	#fallos {
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+		font-size: 2rem;
+	}
+
+	a{
+		font-size: 2rem;
+	}
+
+	img{
+		width: 8rem;
+	}
+
+	#reloj{
+		margin-top: 6rem;
+	}
+	
+}
+
+/*
+
+@media (min-width:480px){
+
+}
+
+@media (min-width:768px){
+}
+
+@media (min-width:1024px){
+}
+
+@media (min-width:1281px){
+
+}
+
+*/
+
